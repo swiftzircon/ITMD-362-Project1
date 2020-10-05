@@ -25,6 +25,10 @@ label {
   margin-top: 25px;
 }
 
+#checkbox-label {
+  display: inline-block;
+}
+
 input {
   border-radius: 20px;
   border-color: #cfdfda;
@@ -38,6 +42,10 @@ input[type=submit]{
   color: #173042;
   background-color: #7cad3e;
   display: block;
+}
+
+input[type=checkbox]{
+  display: inline;
 }
 
 /* CSS for screens above 1050px width Only */
