@@ -5,14 +5,17 @@
   <title>Project 1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"/> <!-- Link to google font -->
   <link rel="reset" media="screen" href="css/reset.css" /> <!-- Contains both reset and normalizing css -->
-  <link rel="stylesheet" media="screen" href="css/screen.css" /> <!-- Contains styling -->
+  <link rel="stylesheet" media="screen" href="css/primary.css" /> <!-- Contains styling -->
+  <script src="js/script.js"></script><!-- Contains styling -->
 </head>
 <body>
   <!-- Email Prompt -->
   <div>
     <h1>Prisma Terra Emailing List</h1>
-	<p></p>
+	<hr/>
+	<p>Signing up for this email list means you will receive periodic updates on Prisma Terra Vivariums.</p>
   </div>
   
   <!-- Form Body -->
@@ -20,16 +23,18 @@
     <form autocomplete="on" id="main">
 	
 	  <label>Name</label>
-      <input type="text" name="name" placeholder="Full Name"/><br>
+      <input type="text" name="name" placeholder="Full Name">
 	  
 	  <label>Address</label>
-      <input type="text" name="address" placeholder="Full Name"/><br>
+      <input type="text" name="address" placeholder="Street Address">
 	  
 	  <label>Zip Code</label>
-      <input type="text" name="name" placeholder="Full Name"/><br>
+      <input type="text" name="name" placeholder="Enter Zip Code">
 	  
 	  <label>Email</label>
-      <input type="email" name="email" placeholder="Full Name"/><br>
+      <input type="email" name="email" placeholder="Email Address">
+	  
+	  <input type="submit" name="submit" />
 	</form>
   </div>
   
