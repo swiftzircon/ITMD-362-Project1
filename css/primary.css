@@ -27,7 +27,7 @@ label {
   display: block;
   margin-top: 25px;
 }
-#checkbox-label {
+#check {
   display: inline-block;
 }
 input {
@@ -42,9 +42,6 @@ input[type=submit]{
   color: #173042;
   background-color: #7cad3e;
   display: block;
-}
-input[type=checkbox]{
-  display: inline;
 }
 /*CSS for color switch*/
 .color_switch {
