@@ -44,6 +44,11 @@ input[type=submit]{
 input[type=checkbox]{
   display: inline;
 }
+/*CSS for color switch*/
+.color_switch {
+  background-color: #35331a;
+  /* color: #c8df59; Wasn't working...*/
+}
 /* CSS for screens above 1050px width Only */
 @media only screen and (min-width: 1050px) { 
   body,p,hr,div,label,input {
@@ -64,8 +69,3 @@ input[type=checkbox]{
     font-size: 125%;
   }
 }	
-/*CSS for color switch*/
-.color_switch {
-  background-color: #35331a;
-  /* color: #c8df59; Wasn't working...*/
-}
