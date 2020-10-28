@@ -13,9 +13,10 @@ img {
 }
 #horizontal_break {
   background-color: #cfdfda;
-  height: 1px;
+  height: 5px;
   width: 85%;
   border-radius: 20px;
+  padding: 5px;
 }
 div {
   padding: 15px; 
