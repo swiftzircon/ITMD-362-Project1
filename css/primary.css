@@ -37,6 +37,9 @@ input {
   padding: 10px 20px;
   margin-top: 10px;
 }
+input[type=text],input[type=email] {
+  width: 85%;	
+}
 input[type=submit]{
   border-color: #7cad3e;
   color: #173042;
@@ -56,6 +59,9 @@ input[type=submit]{
     margin-left: auto;
 	margin-right: auto;
   }
+  input[type=text],input[type=email] {
+    width: 45%;	
+  }
   div {
     width: 60%;
     background-color: #236477;	
@@ -66,5 +72,8 @@ input[type=submit]{
 @media only screen and (min-width: 750px) {
   body,p,hr,div,label,input {
     font-size: 125%;
+  }
+  input[type=text],input[type=email] {
+    width: 95%;	
   }
 }	
