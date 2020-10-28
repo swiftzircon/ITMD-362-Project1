@@ -46,13 +46,23 @@ input[type=submit]{
   background-color: #7cad3e;
   display: block;
 }
+/*Modular Scaling for fonts - Using Perfect Fourth scale */
+h1 {
+  font-size: 2.369em;
+}
+label,input {
+  font-size: 1.333em;
+}
+p {
+  font-size: 1em;
+}
 /*CSS for color switch*/
 .color_switch {
   background-color: #35331a;
   /* color: #c8df59; Wasn't working...*/
 }
 /* CSS for screens above 1050px width Only */
-@media only screen and (min-width: 1050px) { 
+@media only screen and (min-width: 1400px) { 
   body,p,hr,div,label,input {
 	text-align: center;
 	display: block;
@@ -67,13 +77,30 @@ input[type=submit]{
     background-color: #236477;	
 	border-radius: 20px;
   }
+  /*Modular Scaling for fonts - Using Perfect Fourth scale */
+  h1 {
+    font-size: 2.369em;
+  }
+  label,input {
+    font-size: 1.777em;
+  }
+  p {
+    font-size: 1.333em;
+  }
 }
 /* CSS font size increase for screens above 750px width Only */
-@media only screen and (min-width: 750px) {
-  body,p,hr,div,label,input {
-    font-size: 125%;
-  }
+@media only screen and (min-width: 750px) and (max-width: 1399px){
   input[type=text],input[type=email] {
     width: 95%;	
+  }
+  /*Modular Scaling for fonts - Using Perfect Fourth scale */
+  h1 {
+    font-size: 3.157em;
+  }
+  label,input {
+    font-size: 2.369em;
+  }
+  p {
+    font-size: 1.777em;
   }
 }	
