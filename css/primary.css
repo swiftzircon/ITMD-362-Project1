@@ -1,41 +1,33 @@
-
 body {
   background-color: #173042;
   font-family: 'Josefin Sans', sans-serif;
 }
-
 p,label,input[type=submit] {
   font-weight: bold;	
 }
-
 img {
   display: inline;
   float: right;
   width: 50px;
   height: 50px;  
 }
-
 hr {
   border: 5px solid #cfdfda;
   width: 85%;
   border-radius: 20px;
 }
-
 div {
   padding: 15px; 
   color: #cfdfda;
 }
-
 label {
   margin: 5px;
   display: block;
   margin-top: 25px;
 }
-
 #checkbox-label {
   display: inline-block;
 }
-
 input {
   border-radius: 20px;
   border-color: #cfdfda;
@@ -43,18 +35,15 @@ input {
   padding: 10px 20px;
   margin-top: 10px;
 }
-
 input[type=submit]{
   border-color: #7cad3e;
   color: #173042;
   background-color: #7cad3e;
   display: block;
 }
-
 input[type=checkbox]{
   display: inline;
 }
-
 /* CSS for screens above 1050px width Only */
 @media only screen and (min-width: 1050px) { 
   body,p,hr,div,label,input {
@@ -63,21 +52,18 @@ input[type=checkbox]{
     margin-left: auto;
 	margin-right: auto;
   }
-  
   div {
     width: 60%;
     background-color: #236477;	
 	border-radius: 20px;
   }
 }
-
 /* CSS font size increase for screens above 750px width Only */
 @media only screen and (min-width: 750px) {
   body,p,hr,div,label,input {
     font-size: 125%;
   }
 }	
-
 /*CSS for color switch*/
 .color_switch {
   background-color: #35331a;
