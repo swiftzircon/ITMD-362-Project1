@@ -11,8 +11,9 @@ img {
   width: 50px;
   height: 50px;  
 }
-hr {
-  border: 5px solid #cfdfda;
+#horizontal_break {
+  background-color: #cfdfda;
+  height: 1px;
   width: 85%;
   border-radius: 20px;
 }
